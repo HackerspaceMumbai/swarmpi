@@ -22,7 +22,7 @@ After it is installed test it as lynx http://localhost:8081. It should connect w
 
 This will be one of the Swarm nodes
 
-Now I am trying to create a docker-machine on Linux Mint 17 to setup a swarm master node
+Now I am trying to create a docker-machine on Linux Mint 17 to setup a swarm master
 
 http://downloads.hypriot.com/docker-machine_linux-amd64_0.4.1
 
