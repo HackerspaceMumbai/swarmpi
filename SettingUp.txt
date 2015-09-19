@@ -8,7 +8,7 @@ On an linux system, insert a SD or MMC card
 
 dd if=hypriot-rpi-20150727-151455.img of=/dev/mmcblk0 bs=1M
 
-Insert the SD card into RPI and power on. It has docker 1.7 pre-installed.
+Insert the SD card into RPI and power on. It has docker 1.7 pre-installed. The user is pi with password "raspberry" . Change the default password to something more secure.
 
 You can upgrade to 1.8 by installing http://downloads.hypriot.com/docker-hypriot_1.8.2-1_armhf.deb
 
