@@ -40,5 +40,8 @@ CONTAINER ID        IMAGE                      COMMAND                  CREATED 
 bebaa859f8b7        hypriot/rpi-python         "/bin/bash"              About an hour ago   Up 21 minutes       0.0.0.0:80->80/tcp                 Python4
 8400ad611230        hypriot/rpi-mysql          "/entrypoint.sh /bin/"   3 hours ago         Up 21 minutes       3306/tcp                           MYSQL
 
+PS: There are some issues when docker tries to retreive information from the swarm master as the SSH command
+intermittently returns an error and displays stale information.
+
 
 
