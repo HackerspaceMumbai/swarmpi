@@ -1,8 +1,13 @@
-# swarmpi
+This page shows you how to setup swarm hybrid cluster for virualbox and raspberry pi.
 
-Managing the raspberry pi and virtualbox machines with Hybrid Swam
+Prerequisites -
+1) Docker machine
+2) Virtualbox
+3) Raspberry Pi
 
-Steps to follow -
+Step by step guide :
+This will assume that you have a windows machine, for linux based systems the steps would be little different.
+Install Docker machine and Virtualbox. Also make sure the Pi is configured properly. 
 
 1) Create the swarm cluster 
 docker run swarm create ---> token
