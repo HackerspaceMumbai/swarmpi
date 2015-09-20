@@ -26,7 +26,7 @@ Containers: 2
 Strategy: spread
 Filters: affinity, health, constraint, port, dependency
 Nodes: 1
- pi1: 192.168.1.202:2376
+ pi1: 192.168.1.100:2375
   └ Containers: 2
   └ Reserved CPUs: 0 / 4
   └ Reserved Memory: 0 B / 971.3 MiB
