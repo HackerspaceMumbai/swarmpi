@@ -1,0 +1,32 @@
+I was able to run Docker 1.8 on the RPI by following these steps:
+
+wget http://downloads.hypriot.com/hypriot-rpi-20150727-151455.img.zip 
+
+Unzip the above file:
+
+On an linux system, insert a SD or MMC card
+
+dd if=hypriot-rpi-20150727-151455.img of=/dev/mmcblk0 bs=1M
+
+Insert the SD card into RPI and power on. It has docker 1.7 pre-installed. The user is pi with password "raspberry" . Change the default password to something more secure.
+
+You can upgrade to 1.8 by installing http://downloads.hypriot.com/docker-hypriot_1.8.2-1_armhf.deb
+
+Login as superuser and Update the package list  sudo su && apt-get update && apt-get install lynx
+
+Install a sample docker image of Resin for RPI 
+
+docker run -d -p 8081:8081 resin/rpi-google-coder
+
+After it is installed test it as lynx http://localhost:8081. It should connect with the http server.
+
+This will be one of the Swarm nodes
+
+Now I am trying to create a docker-machine on Linux Mint 17 to setup a swarm master
+
+http://downloads.hypriot.com/docker-machine_linux-amd64_0.4.1
+
+Need to create another swarm node to check out the swarm  functionality on RPI 
+
+
+
